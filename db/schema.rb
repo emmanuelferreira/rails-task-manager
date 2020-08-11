@@ -11,7 +11,6 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema.define(version: 2020_08_11_083622) do
-
   create_table "tasks", force: :cascade do |t|
     t.string "title"
     t.text "details"
@@ -19,5 +18,4 @@ ActiveRecord::Schema.define(version: 2020_08_11_083622) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
-
 end
